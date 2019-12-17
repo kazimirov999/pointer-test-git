@@ -5,4 +5,5 @@ public class Cat {
     String name = "NEW CAT";
     String color = "BLACK";
     int age = 3;
+    int age2 = 3;
 }
