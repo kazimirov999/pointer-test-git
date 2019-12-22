@@ -4,5 +4,7 @@ public class Dog {
 
     String name = "NEW DOG";
     String color = "RED";
+    String tail = "LONG";
+    
 
 }
