@@ -1,12 +1,11 @@
-import ua.com.pointer.Person;
+import ua.com.pointer.Robot;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Person person = new Person();
-
-        person.say();
+        Robot person = new Robot();
+        
     }
 }
 
