@@ -1,18 +1,16 @@
 import ua.com.pointer.Person;
 
+import java.util.Scanner;
+
 public class Main {
-
     public static void main(String[] args) {
-   Robot vitya = new Robot();
-   System.out.println(vitya.height +" "+ "Height of Robot" );
-   System.out.println(vitya.health+" "+ "HP");
+        Scanner str = new Scanner(System.in);
+        System.out.println(" Your  Ammunition  " + " " + str.nextInt());
 
 
-
-
-
+        Robot vitya = new Robot();
+        System.out.println("Height of Robot" + " " + vitya.height);
+        System.out.println("HP" + " " + vitya.health);
 
     }
 }
-
-
